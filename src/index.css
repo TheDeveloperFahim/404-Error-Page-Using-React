@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Raleway:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  height: 100hv;
+  font-family: "Raleway", sans-serif;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: #75cab4;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1.error-title {
+  font-family: "Montserrat", sans-serif;
+  color: #a2e2c0;
+  text-shadow: 5px 0px 0px #75cab4;
+  font-size: 12rem;
+  padding-bottom: 5px;
+  letter-spacing: 1rem;
+}
+
+h3.error-sub-title {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #1c2833;
+}
+
+p.error-descp {
+  font-size: 16px;
+  width: 50%;
+  color: #787878;
+}
+
+button.back-to-home-btn {
+  text-transform: capitalize;
+  padding: 10px 35px;
+  color: #fff;
+  background: #ffc7ba;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+button.back-to-home-btn:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  height: 100%;
+  width: 100%;
+  background: #f59b93;
+  border-radius: 50px;
+  z-index: -1;
+}
