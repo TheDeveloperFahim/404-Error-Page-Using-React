@@ -1,2 +1,2 @@
-# 404-Errpr-Page-Using-React
-This is a simple modern 404 error page using react js 
+## 404 Error Page Using React Js 
+<p>This is a modern and simple 404 error page</p>
